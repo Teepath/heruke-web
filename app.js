@@ -9,6 +9,7 @@ var indexRouter = require('./routes/index');
 var aboutRouter = require('./routes/about');
 var contactRouter = require('./routes/contact');
 
+
 var app = express();
 
 // view engine setup
@@ -23,6 +24,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/about', aboutRouter);
+// app.use('/about_director', directorRouter);
+// app.use('/projects', projectRouter);
 app.use('/contact', contactRouter);
 
 // catch 404 and forward to error handler
