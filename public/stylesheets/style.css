@@ -1,6 +1,7 @@
 body {
   padding: 120px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: black;
 }
 
 a {
@@ -16,7 +17,8 @@ a {
   color: rgb(239, 246, 248);
 }
 
-h2{
+
+h4{
   color: #8e8e8e
 }
 
@@ -47,4 +49,13 @@ footer{
 
 nav ul li {
   color: blue;
+}
+
+
+.imgClass{
+  height: 300px;
+  width: 350px;
+  border: 1px grey solid;
+  border-radius: 5px;
+
 }

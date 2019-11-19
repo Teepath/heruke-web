@@ -14,4 +14,8 @@ router.get('/projects', function(req, res, next) {
   res.render('projects', {title: 'Projects'})
 });
 
+router.get('/gallery', function(req, res, next) {
+  res.render('gallery', {title: 'Gallery'})
+});
+
 module.exports = router;
