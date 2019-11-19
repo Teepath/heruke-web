@@ -54,6 +54,13 @@ nav ul li {
   color: blue;
 }
 
+.textCenter{
+  text-align: center;
+}
+.textUnder{
+  text-decoration: underline;
+}
+
 
 .imgClass{
   height: 300px;
