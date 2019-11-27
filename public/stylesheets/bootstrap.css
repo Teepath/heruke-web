@@ -566,10 +566,10 @@ pre code {
 }
 
 
-@media(min-width: 320px){
+@media(max-width: 480px){
   .container{
-    max-width: 960px;
-    margin-top: 180px;
+    min-width: 400px;
+    margin-top: 250px;
   }
 }
 
