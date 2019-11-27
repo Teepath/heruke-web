@@ -570,7 +570,7 @@ pre code {
   .container{
     min-width: 400px;
     margin-top: 250px;
-    margin: auto;
+    margin-left: 0px;
   }
 }
 
