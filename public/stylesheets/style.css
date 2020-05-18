@@ -79,15 +79,15 @@ a {color: black;margin: 5px; text-decoration: none;}
 
 .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 20;
+    margin-top: 10;
 }
 
 .dropdown-menu .sub-menu {
     left: 100%;
     position: absolute;
-    top: 10;
+    top: 1;
     visibility: hidden;
-    margin-top: -1px;
+    margin-top: -2px;
 }
 
 

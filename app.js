@@ -44,7 +44,7 @@ app.use(function(req, res, next) {
 //   res.render('error');
 // });
 
-app.set('port', (process.env.PORT || 5001));
+app.set('port', (process.env.PORT || 5002));
 
 app.listen(app.get('port'), function(){
   console.log('Node app is runing', app.get('port'))
